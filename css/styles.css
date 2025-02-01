@@ -72,10 +72,27 @@ body {
 }
 
 .media-links {
+  width: 100%;
+}
+
+.media-links ul {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  width: 100%;
+  list-style: none;
+}
+
+.media-links li {
+  background-color: var(--grey-700);
+  padding: 0.7em;
+  border-radius: 10px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.media-links li:hover {
+  color: var(--grey-900);
+  background-color: var(--green);
 }
 
 .media-links a {
@@ -83,15 +100,6 @@ body {
   font-weight: 700;
   color: var(--white);
   text-decoration: none;
-  background-color: var(--grey-700);
-  padding: 1em;
-  border-radius: 10px;
-  transition: 0.2s ease;
-}
-
-.media-links a:hover {
-  color: var(--grey-900);
-  background-color: var(--green);
 }
 
 .attribution {
