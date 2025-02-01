@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+  font-family: "Inter", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grey-900);
+  padding: 20px;
+  height: 100vh;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: var(--grey-800);
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+
+.card-img {
+  width: 30%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.avatar-details {
+  margin-bottom: 1.5em;
+}
+
+.avatar-details .name {
+  font-size: 1.7em;
+  color: var(--white);
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.avatar-details .location {
+  color: var(--green);
+  font-weight: 600;
+  margin-bottom: 1.5em;
+}
+
+.avatar-details .job {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.media-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+
+.media-links a {
+  font-size: 0.9em;
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--grey-700);
+  padding: 1em;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.media-links a:hover {
+  color: var(--grey-900);
+  background-color: var(--green);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
