@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Git](https://github.com/WesSno/Social-Links-Profile)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://wes-social-profile-card.netlify.app/)
 
 ## My process
 
